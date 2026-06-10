@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matrixx Agency | Web Design & Digital Marketing — Toronto & Mississauga</title>
+  <meta name="description" content="Matrixx Agency builds jaw-dropping websites, dominates organic content, ships full stack apps, and deploys AI automation for Toronto and Mississauga businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+<script>if(sessionStorage.getItem("mx_v"))document.documentElement.classList.add("skip-loader")</script>
+</head>
+<body>
+
+<!-- Background -->
+<div class="bg-animation"></div>
+<div class="grid-overlay"></div>
+<div class="particles" id="particles"></div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <canvas class="loader-canvas" id="loaderCanvas"></canvas>
+  <div class="loader-inner">
+    <div class="loader-agency-name">Matrixx Agency</div>
+    <div class="loader-status">Loading</div>
+  </div>
+</div>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Nav -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="./" class="nav-logo">
+      <img src="https://i.postimg.cc/hG7K8jdW/matrixx-agency-removebg-preview-1-1.png" alt="Matrixx Agency">
+      <span class="nav-logo-text">Matrixx Agency</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="./" class="active">Home</a></li>
+      <li><a href="web-design/">Web Design</a></li>
+      <li><a href="organic-content/">Organic Content</a></li>
+      <li><a href="app-design/">App Design</a></li>
+      <li><a href="ai-automation/">AI Automation</a></li>
+      <li><a href="blog/">Blog</a></li>
+      <li><a href="about/">About</a></li>
+    </ul>
+    <a href="contact/" class="nav-cta">Get Started ↗</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="./" class="active">Home</a>
+  <a href="web-design/">Web Design</a>
+  <a href="organic-content/">Organic Content</a>
+  <a href="app-design/">App Design</a>
+  <a href="ai-automation/">AI Automation</a>
+  <a href="blog/">Blog</a>
+  <a href="about/">About</a>
+  <a href="contact/">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero page-body">
+  <!-- Floating geo shapes -->
+  <div class="hero-geo hero-geo-1"></div>
+  <div class="hero-geo hero-geo-2"></div>
+  <div class="hero-geo hero-geo-3"></div>
+
+  <div class="hero-inner reveal">
+    <!-- Left column -->
+    <div class="hero-left">
+      <p class="hero-label">UNLEASHING BOUNDLESS CREATIVITY<br>FOR YOUR BRAND</p>
+      <canvas class="geo-canvas geo-lg" data-shape="torusknot"></canvas>
+      <p class="hero-label">JAW-DROPPING WEBSITES,<br>ORGANIC CONTENT MASTERY,<br>FULL STACK APPS &amp; AI SYSTEMS.</p>
+    </div>
+
+    <!-- Right column -->
+    <div class="hero-right">
+      <div class="stats-row">
+        <div class="stat">
+          <span class="num">Made</span>
+          <span class="lbl">For<br>You</span>
+        </div>
+        <div class="stat">
+          <span class="num">Sharp</span>
+          <span class="lbl">Detail<br>Driven</span>
+        </div>
+        <div class="stat">
+          <span class="num">Modern</span>
+          <span class="lbl">Future<br>Ready</span>
+        </div>
+      </div>
+      <a href="contact/" class="hero-reach">REACH OUT <span>↗</span></a>
+      <h1 class="hero-headline">TRANSFORMING<br>DIGITAL<br>PRESENCE</h1>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS BAR -->
+<div class="stats-bar">
+  <div class="stats-bar-inner reveal">
+    <div class="stat-item">
+      <span class="big-num">Custom</span>
+      <span class="big-lbl">Every Build Yours</span>
+    </div>
+    <div class="stat-item">
+      <span class="big-num">Engineered</span>
+      <span class="big-lbl">For Conversion</span>
+    </div>
+    <div class="stat-item">
+      <span class="big-num">Algorithm</span>
+      <span class="big-lbl">Aware Strategy</span>
+    </div>
+    <div class="stat-item">
+      <span class="big-num">Future</span>
+      <span class="big-lbl">Ready Systems</span>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT STRIP -->
+<div class="about-strip">
+  <div class="about-strip-inner reveal">
+    <div class="about-strip-text">
+      <p>AT MATRIXX AGENCY, WE BELIEVE IN BREAKING BOUNDARIES AND PUSHING THE LIMITS OF POSSIBILITY. OUR TEAM OF GROWTH SPECIALISTS AND DIGITAL STRATEGISTS IS DEDICATED TO TRANSFORMING YOUR BRAND INTO AN EXTRAORDINARY DIGITAL EXPERIENCE.</p>
+    </div>
+    <canvas class="geo-canvas geo-md"></canvas>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="services-bento reveal">
+    <div class="services-label">
+      <div class="tag">What We Do</div>
+      <h2 class="sh">EXPLORE<br>OUR<br>SERVICES</h2>
+      <canvas class="geo-canvas geo-md" style="margin-top:2.5rem"></canvas>
+    </div>
+    <div class="service-list">
+      <a href="web-design/" class="service-list-item featured">
+        <div class="service-item-text">
+          <h3>Jaw-Dropping Web Design</h3>
+          <p>WE BUILD WEBSITES THAT ACTUALLY CONVERT. EVERY PIXEL ENGINEERED TO TURN VISITORS INTO PAYING CLIENTS — NO TEMPLATES, NO COMPROMISES.</p>
+        </div>
+        <span class="svc-arrow">↗</span>
+      </a>
+      <a href="organic-content/" class="service-list-item">
+        <div class="service-item-text">
+          <h3>Organic Content Kings</h3>
+          <p>WE UNDERSTAND THE ALGORITHM BETTER THAN ANYONE. KILLER ORGANIC CONTENT THAT BUILDS CULT-FOLLOWING BRANDS — NO AD SPEND REQUIRED.</p>
+        </div>
+        <span class="svc-arrow">↗</span>
+      </a>
+      <a href="app-design/" class="service-list-item">
+        <div class="service-item-text">
+          <h3>Full Stack App Design</h3>
+          <p>END-TO-END PRODUCT BUILDS. BEAUTIFUL FRONTENDS, BULLETPROOF BACKENDS. WEB + MOBILE APPS SHIPPED FAST AND BUILT TO SCALE.</p>
+        </div>
+        <span class="svc-arrow">↗</span>
+      </a>
+      <a href="ai-automation/" class="service-list-item">
+        <div class="service-item-text">
+          <h3>AI Automation</h3>
+          <p>INTELLIGENT CHATBOTS, WORKFLOW ENGINES, AND PREDICTIVE SYSTEMS THAT SAVE HOURS AND SCALE REVENUE 24/7.</p>
+        </div>
+        <span class="svc-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="approach-section" id="about">
+  <div class="approach-inner">
+    <div class="reveal">
+      <div class="tag">Our Process</div>
+      <h2 class="sh right">OUR EXCELLENT<br>APPROACH</h2>
+    </div>
+    <div class="approach-grid reveal">
+      <div class="approach-card">
+        <canvas class="geo-canvas geo-sm" data-shape="icosahedron" style="margin-bottom:1.75rem"></canvas>
+        <h3>Discover</h3>
+        <p>WE BEGIN BY IMMERSING OURSELVES IN YOUR BRAND. THROUGH THOROUGH RESEARCH AND COMPREHENSIVE DISCUSSIONS, WE GAIN A DEEP UNDERSTANDING OF YOUR VISION, GOALS, AND TARGET AUDIENCE.</p>
+      </div>
+      <div class="approach-card featured">
+        <canvas class="geo-canvas geo-sm" style="margin-bottom:1.75rem"></canvas>
+        <h3>Strategize</h3>
+        <p>OUR TEAM OF GROWTH SPECIALISTS BRAINSTORM AND EXPLORE A MULTITUDE OF IDEAS. WE BELIEVE IN THE POWER OF COLLABORATION AND THE LIMITLESS POTENTIAL OF DATA-DRIVEN CREATIVITY.</p>
+      </div>
+      <div class="approach-card">
+        <canvas class="geo-canvas geo-sm" style="margin-bottom:1.75rem"></canvas>
+        <h3>Execute</h3>
+        <p>WE BUILD CUSTOM SOLUTIONS THAT REFLECT THE UNIQUE IDENTITY OF YOUR BRAND — WHETHER IT'S A JAW-DROPPING SITE, A VIRAL CONTENT ENGINE, A FULL STACK APP, OR AN AI AUTOMATION SYSTEM.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="geo-line"></div>
+
+<!-- CTA -->
+<section class="cta-section" id="contact">
+  <div class="cta-top reveal">
+    <canvas class="geo-canvas geo-lg"></canvas>
+    <div class="cta-copy">
+      <p>LET'S COLLABORATE AND CREATE SOMETHING EXTRAORDINARY. CONTACT US TODAY TO EXPLORE LIMITLESS GROWTH SOLUTIONS TAILORED TO YOUR VISION.</p>
+      <a href="contact/" class="btn-primary">Book a Strategy Call ↗</a>
+    </div>
+  </div>
+  <h2 class="cta-headline reveal">REACH OUT<br>NOW</h2>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-logo">
+          <img src="https://i.postimg.cc/hG7K8jdW/matrixx-agency-removebg-preview-1-1.png" alt="Matrixx Agency">
+          <span>Matrixx Agency</span>
+        </div>
+        <p class="footer-about">Leading digital agency pushing the boundaries of web design, AI automation, and digital marketing for businesses across Toronto, Mississauga, and the Greater Toronto Area.</p>
+        <div class="footer-contact-line"><i class="fas fa-phone"></i> 647-825-1517</div>
+        <div class="footer-contact-line"><i class="fas fa-envelope"></i> thematrixxagency@gmail.com</div>
+        <div class="footer-contact-line"><i class="fas fa-map-marker-alt"></i> Serving all of GTA</div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <div class="footer-nav-list">
+          <a href="web-design/">Web Design</a>
+          <a href="organic-content/">Organic Content</a>
+          <a href="app-design/">App Design</a>
+          <a href="ai-automation/">AI Automation</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <div class="footer-nav-list">
+          <a href="about/">About Us</a>
+          <a href="blog/">Blog &amp; Insights</a>
+          <a href="contact/">Contact</a>
+          <a href="https://calendly.com/thematrixxagency/30min" target="_blank">Book a Call</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Matrixx Agency · Web Design &amp; Digital Marketing · Toronto · Mississauga · GTA</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/matrixxagency" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/matrixxagency" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://calendly.com/thematrixxagency/30min" target="_blank"><i class="fas fa-calendar-alt"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

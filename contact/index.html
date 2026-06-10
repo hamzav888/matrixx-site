@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Matrixx Agency | Book a Strategy Call</title>
+  <meta name="description" content="Ready to grow? Contact Matrixx Agency for web design, paid ads, AI automation, and social media services in Toronto and Mississauga.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+<script>if(sessionStorage.getItem("mx_v"))document.documentElement.classList.add("skip-loader")</script>
+</head>
+<body>
+<div class="bg-animation"></div>
+<div class="grid-overlay"></div>
+<div class="particles" id="particles"></div>
+<div class="loader" id="loader">
+  <canvas class="loader-canvas" id="loaderCanvas"></canvas>
+  <div class="loader-inner">
+    <div class="loader-agency-name">Matrixx Agency</div>
+    <div class="loader-status">Loading</div>
+  </div>
+</div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="../" class="nav-logo">
+      <img src="https://i.postimg.cc/hG7K8jdW/matrixx-agency-removebg-preview-1-1.png" alt="Matrixx Agency">
+      <span class="nav-logo-text">Matrixx Agency</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../web-design/">Web Design</a></li>
+      <li><a href="../organic-content/">Organic Content</a></li>
+      <li><a href="../app-design/">App Design</a></li>
+      <li><a href="../ai-automation/">AI Automation</a></li>
+      <li><a href="../blog/">Blog</a></li>
+      <li><a href="../about/">About</a></li>
+    </ul>
+    <a href="../contact/" class="nav-cta active">Get Started ↗</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="../">Home</a>
+  <a href="../web-design/">Web Design</a>
+  <a href="../organic-content/">Organic Content</a>
+  <a href="../app-design/">App Design</a>
+  <a href="../ai-automation/">AI Automation</a>
+  <a href="../blog/">Blog</a>
+  <a href="../about/">About</a>
+  <a href="../contact/" class="active">Contact</a>
+</div>
+
+<div class="page-body">
+  <div class="page-hero">
+    <div class="page-hero-inner">
+      <div class="tag">Get In Touch</div>
+      <h1>LET'S<br>TALK</h1>
+      <p>Ready to transform your digital presence? Book a free strategy call or send us a message. We typically respond within 24 hours.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="two-col" style="gap:4rem">
+
+        <!-- FORM -->
+        <div class="reveal">
+          <div class="tag">Send a Message</div>
+          <h2 class="sh" style="margin-bottom:2rem">START YOUR<br>PROJECT</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Smith" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (647) 000-0000">
+            </div>
+            <div class="form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option>Website Design</option>
+                <option>Meta &amp; Google Ads</option>
+                <option>Lead Generation</option>
+                <option>AI Automation</option>
+                <option>Social Media Management</option>
+                <option>Full Growth Package</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Monthly Budget Range</label>
+              <select id="budget" name="budget">
+                <option value="">Select a range...</option>
+                <option>Under $1,000/mo</option>
+                <option>$1,000 – $3,000/mo</option>
+                <option>$3,000 – $7,500/mo</option>
+                <option>$7,500 – $15,000/mo</option>
+                <option>$15,000+/mo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Project</label>
+              <textarea id="message" name="message" rows="5" placeholder="What are you looking to achieve? What challenges are you facing?"></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;justify-content:center;border:none;cursor:pointer;font-size:.7rem;padding:1.1rem">Send Message ↗</button>
+          </form>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="reveal">
+          <div class="tag">Contact Details</div>
+          <h2 class="sh" style="margin-bottom:2rem">GET IN<br>TOUCH</h2>
+
+          <div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+16478251517">647-825-1517</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:thematrixxagency@gmail.com">thematrixxagency@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Location</h4>
+                <p>Mississauga, ON — Serving all of GTA</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Hours</h4>
+                <p>Mon–Fri: 9:00 AM – 6:00 PM EST</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fab fa-instagram"></i></div>
+              <div>
+                <h4>Instagram</h4>
+                <a href="https://www.instagram.com/matrixxagency" target="_blank">@matrixxagency</a>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:2.5rem;padding:2rem;background:var(--glass);border:1px solid var(--glass-border);border-radius:12px;position:relative" class="bracket">
+            <div class="tag">Preferred Method</div>
+            <h3 style="font-family:var(--ff-head);font-size:1rem;color:var(--silver);margin-bottom:.75rem">Book a Free Strategy Call</h3>
+            <p style="font-size:.88rem;color:rgba(229,231,235,.6);line-height:1.7;margin-bottom:1.5rem">Skip the back-and-forth. Book a 30-minute call where we'll audit your current digital presence and outline a tailored growth plan — no strings attached.</p>
+            <a href="https://calendly.com/thematrixxagency/30min" target="_blank" class="btn-outline">Book on Calendly ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-logo">
+            <img src="https://i.postimg.cc/hG7K8jdW/matrixx-agency-removebg-preview-1-1.png" alt="Matrixx Agency">
+            <span>Matrixx Agency</span>
+          </div>
+          <p class="footer-about">Leading digital agency for Toronto and Mississauga businesses.</p>
+          <div class="footer-contact-line"><i class="fas fa-phone"></i> 647-825-1517</div>
+          <div class="footer-contact-line"><i class="fas fa-envelope"></i> thematrixxagency@gmail.com</div>
+          <div class="footer-contact-line"><i class="fas fa-map-marker-alt"></i> Serving all of GTA</div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <div class="footer-nav-list">
+            <a href="../web-design/">Web Design</a>
+            <a href="../organic-content/">Organic Content</a>
+            <a href="../app-design/">App Design</a>
+            <a href="../ai-automation/">AI Automation</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <div class="footer-nav-list">
+            <a href="../about/">About Us</a>
+            <a href="../blog/">Blog &amp; Insights</a>
+            <a href="../contact/">Contact</a>
+            <a href="https://calendly.com/thematrixxagency/30min" target="_blank">Book a Call</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Matrixx Agency · Toronto · Mississauga · GTA</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/matrixxagency" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/matrixxagency" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
